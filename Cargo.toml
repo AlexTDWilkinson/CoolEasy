@@ -1,0 +1,2 @@
+[workspace]
+members = ["cool_easy","cool_easy_macros"]

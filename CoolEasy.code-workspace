@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "[rust]": {
+      "editor.defaultFormatter": "rust-lang.rust-analyzer",
+      "editor.formatOnSave": true
+    },
+    "rust-analyzer.check.command": "clippy",
+    "files.associations": {
+      "*.rs": "rust"
+    }
+  }
+}

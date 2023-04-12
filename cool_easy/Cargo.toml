@@ -1,0 +1,12 @@
+[package]
+name = "cool_easy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cool_easy_macros = { path = "../cool_easy_macros" }
+markdown = "0.3"
+femark = "0.1.3"
+

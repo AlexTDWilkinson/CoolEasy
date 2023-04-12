@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/api/index" },
+    { "source": "/:path", "destination": "/api/:path" }
+  ],
+  "outputDirectory": "public",
+  "functions": {
+    "api/**/*.rs": {
+      "runtime": "vercel-rust@4.0.0-beta.3"
+    }
+  }
+}
