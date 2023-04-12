@@ -1,4 +1,4 @@
-# CoolEasy Web Framework
+# CoolEasy Rust Web Framework
 
 CoolEasy is a Rust web framework that enables you to create and deploy a website to the "edge" in under 5 minutes.
 
