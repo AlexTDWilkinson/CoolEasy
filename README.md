@@ -19,6 +19,10 @@ By default, CoolEasy utilizes Tailwind CSS for styling, although it's not mandat
 
 ## Example Usage
 
+There is a basic example in the examples folder.
+
+Here is the basic example deployed: https://portfolio-houski.vercel.app/
+
 The following code shows a typical page in the CoolEasy framework:
 
 ```rust
@@ -34,7 +38,7 @@ pub async fn handler(req: Request) -> Result<Response<Body>, Error> {
 
     let mut page = vec![];
 
-    // If the page is interactive, often this will conditional rendering based on form submissions.
+    // If the page is interactive, often this will conditional rendering based on form submissions (see basic example for details)
 
     page.push(html! {
     <div>
@@ -42,7 +46,7 @@ pub async fn handler(req: Request) -> Result<Response<Body>, Error> {
     </div>
     })
 
-    page.push(md!(## I am markdown));
+    page.push(md!("## I am markdown"));
 
 
     let html_content = PageWrapper::new()
