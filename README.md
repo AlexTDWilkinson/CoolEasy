@@ -78,7 +78,7 @@ To deploy your website, simply run:
 
 `npx vercel`
 
-## What is Cool Easy good at?
+## What is CoolEasy good at?
 
 - Portfolios
 - Blogs
@@ -87,7 +87,7 @@ To deploy your website, simply run:
 - Documentation websites
 - Event websites
 
-## What is Cool Easy bad at?
+## What is CoolEasy bad at?
 
 - Highly interactive sites with complex realtime UI interactions
 - Deploying to anywhere except Vercel (though maybe in the future that will change)
